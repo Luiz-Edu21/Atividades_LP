@@ -20,6 +20,7 @@ header{
     margin-top: 20px;
 }
 .link{
+    display: flex;
     justify-content: right;
     text-decoration: none;
     align-items: flex-start;
@@ -40,19 +41,80 @@ header{
     font-style: inherit;
 }
 .previa{
-    
-    display: block;
+    display: flex;
     width: 200px;
     margin-left: 75px;
     padding-top: 15px;
 
 }
 .retan{
-    display: flex;
+    display:   flex;
     background-color: #9f9f9f;
     width: 800px;
     height: 250px;
     margin-right: 75px;
-    margin-left: 30%;
-    
+    margin-left: 43%;
+    margin-top: -120px;
+    margin-bottom: 30px;
+    align-items: center;
+    justify-content: center;
+
 }
+#pirmeiro_icon{
+    display: flex;
+    margin-left: 60%;
+}
+.icone{
+    display: flex;
+    margin-top: 10px;
+    width: 55px;
+    height: 55px;
+    margin-right: 10px;
+}
+.topicos{
+    justify-content: center;
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+}
+.colun{
+    flex: -1;
+}
+.quadro{
+    background-color: #c3c3c3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 250px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+.feed{
+    display: flex;
+    background-color: #c3c3c3;
+    height: 100px;
+    margin-left: 205px;
+    margin-right: 184px;    
+    margin-top: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.rodape{
+    display: flex;
+    width: 100%;
+    height: 100px;
+    background-color: #c3c3c3;
+    margin-top: 30px;
+    align-items: center;
+}
+.coop{
+    display: flex;
+    align-items: center;
+    padding-left: 44.5%;
+    justify-content: right;
+}
+#primLink{
+    margin-left: 205px;
+}
+
